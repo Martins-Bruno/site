@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#000">
+    <meta name="author" content="Bruno Martins">
+    <title>Bruno Martins | Web Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <div class="navbar container">
+      <div class="navbar-content container">
+        <div class="local">
+          <li><a href="#" class="logo" onclick="closeMenu()"><h4>brunomartins</h4></a></li>
+          <span class="after-logo"></span>
+        </div>
+        <div class="btn" onclick="openOrCloseMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu container" style="visibility: hidden">
+      <nav>
+        <ul class="container" style="visibility: hidden">
+          <li><a href="#presentation" onclick="closeMenu()">Apresentação</a></li>
+          <li><a href="#skills" onclick="closeMenu()">Conhecimentos</a></li>
+          <li><a href="#portfolio" onclick="closeMenu()">Portfolio</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="cover" onclick="closeMenu()"></div>
+
+    <div class="profile container">
+
+      <div class="profile-img"></div>
+      <div class="description">
+        <h1>Bruno Martins</h1>
+        <h3>Nerd, Web Developer padawan, e estudante de Análise e Desenvolvimento de Sistemas.</h3>
+      </div>
+    </div>
+
+    <section id="presentation" class="container">
+
+      <h2>Apresentação</h2>
+      <span class="line"></span>
+
+      <p>Bruno Martins, de 24 anos, morador do Centro do Rio de Janeiro e amante da tecnologia, deixou o 7º período de Direito para cursar Análise e Desenvolvimento de Sistemas com a vontade de ser feliz e de fazer o que realmente gosta.</p>
+
+      <p>Deu os seus primeiros passos (ou tecladas) no mundo da programação através da linguagem Python e, desde então, busca desenvolver cada vez mais os seus conhecimentos na área de TI, especialmente em programação.</p>
+
+      <p>Curioso, fuçava desde pequeno os PCs que tinha acesso e ficava maravilhado com tudo que um computador era capaz de fazer, o que estimulou o seu interesse por computação em geral.</p>
+
+      <p>Instalou uma distribuição Linux em seu computador pela primeira vez em meados de 2007, mas antes mesmo já havia usado o Kurumin nas aulas de informática da sua escola. Hoje, a sua distro favorita é o Mint.</p>
+
+      <p>É muito grato a diversos sites, canais do YouTube e apps, que democratizam e facilitam o aprendizado no Brasil e no mundo. Agradece, especialmente, pelos ensinamentos do professor Gustavo Guanabara, do canal Curso em Vídeo.</p>
+    
+      <p>Hoje, tira leite de pedra com um Celeron em pleno 2019, está no 2º período do curso, se autodeclara aspirante a programador web, estuda diversas tecnologias de maneira autodidata, e procura pelo seu primeiro estágio ou emprego como desenvolvedor.</p>
+    
+    </section>
+
+    <section id="skills" class="container">
+
+      <h2>Conhecimentos</h2>
+      <span class="line"></span>
+
+      <p>Possui certo domínio do básico do desenvolvimento web, aprendeu o básico de JavaScript, PHP, Python, e C++, e atualmente, tem se aventurado no React Native e no ElectronJS onde criou alguns apps simples para Windows e Android.</p>
+      
+      <p>Se sentiria feliz em trabalhar em projetos onde possa aprender mais sobre JavaScript e seu uso comercial na prática, pois acredita que é a linguagem do momento e do futuro.</p>
+
+      <p>Embora não possua conhecimentos avançados ou experiência profissional em programação, mas tem muita vontade de aprender, se aperfeiçoar, trabalhar em equipe e construir algo novo.</p>
+
+    </section>
+
+    <section id="portfolio" class="container">
+
+      <h2>Portfolio</h2>
+      <span class="line"></span>
+
+      <p>Criou o seu próprio site, que temporariamente mantém via GitHub Pages, e está criando um portfolio que consiste em Codepen e GitHub com alguns materiais, bem como alguns de seus programas.</p>
+
+    </section>
+
+    <footer class="container">
+      <p>Nenhum hardware foi danificado no desenvolvimento deste site.</p>
+      <p>&copy Bruno Martins · 2019</p>
+    </footer>
+
+    <script defer src="js/main.js"></script>
+  </body>
+</html>
